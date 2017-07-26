@@ -2,6 +2,11 @@ import { Router } from 'express'
 import user from './user'
 import auth from './auth'
 import passwordReset from './password-reset'
+import loan from './loan'
+import reward from './reward'
+import wallet from './wallet'
+import university from './university'
+import business from './business'
 
 const router = new Router()
 
@@ -31,5 +36,10 @@ const router = new Router()
 router.use('/users', user)
 router.use('/auth', auth)
 router.use('/password-resets', passwordReset)
+router.use('/loans', loan)
+router.use('/rewards', reward)
+router.use('/wallets', wallet)
+router.use('/universities', university)
+router.use('/businesses', business)
 
 export default router

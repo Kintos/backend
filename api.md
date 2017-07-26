@@ -11,12 +11,13 @@
   - hasLoan
   - conekta_id
   - conekta_card
+  - card_number
   - email
   - kintos
-  - loansAmount
+  - loans_amount
   - name
   - password
-  - picturePath
+  - picture_path
   - school
   - city
   - referral_code
